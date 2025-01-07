@@ -1,5 +1,5 @@
 // Import the SlashCommandBuilder class from discord.js
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
   cooldown: 5,
@@ -11,6 +11,6 @@ module.exports = {
   // Define the execute function to handle the command execution
   async execute(interaction) {
     // Reply with "Pong!" when the command is executed
-    await interaction.reply("Pong!");
+    await interaction.reply({ content: "Secret Pong!" }, { flags: MessageFlags.Ephemeral });
   },
 };
