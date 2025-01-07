@@ -5,6 +5,7 @@ const { token } = require("./config.json");
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection(); // Create a new collection of available commands
+client.cooldowns = new Collection();
 
 const foldersPath = path.join(__dirname, "commands"); // Construct paths to the commands directory
 const commandFolders = fs.readdirSync(foldersPath); // Reads path to the directory and returns an array of all subdirectories it contains
