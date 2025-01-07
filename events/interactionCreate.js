@@ -1,4 +1,4 @@
-const { Events, MessageFlags } = require("discord.js");
+const { Events, MessageFlags, Collection } = require("discord.js");
 
 module.exports = {
   name: Events.InteractionCreate,
@@ -36,6 +36,9 @@ module.exports = {
         });
       }
     }
+
+    timestamps.set(interaction.user.id, now);
+    setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
 
     try {
       await command.execute(interaction);
