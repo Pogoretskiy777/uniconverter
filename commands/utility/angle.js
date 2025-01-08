@@ -4,7 +4,7 @@ module.exports = {
   cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("angle")
-    .setDescription("Converts plane angle measures")
+    .setDescription("Converts plane angle measurements")
     .addNumberOption((option) =>
       option.setName("quantity").setDescription("The original unit's measurement").setRequired(true)
     )

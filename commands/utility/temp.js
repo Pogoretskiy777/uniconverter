@@ -4,7 +4,7 @@ module.exports = {
   cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("temp")
-    .setDescription("Converts temperature measures")
+    .setDescription("Converts temperature measurements")
     .addNumberOption((option) =>
       option.setName("quantity").setDescription("The original unit's measurement").setRequired(true)
     )

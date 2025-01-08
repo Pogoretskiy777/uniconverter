@@ -4,7 +4,7 @@ module.exports = {
   cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("fuel-economy")
-    .setDescription("Converts fuel economy measures")
+    .setDescription("Converts fuel economy measurements")
     .addNumberOption((option) =>
       option.setName("quantity").setDescription("The original unit's measurement").setRequired(true)
     )
