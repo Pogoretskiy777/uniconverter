@@ -10,7 +10,6 @@ module.exports = {
 
   // Define the execute function to handle the command execution
   async execute(interaction) {
-    // Reply with "Pong!" when the command is executed
     await interaction.reply({ content: "Secret Pong!", flags: MessageFlags.Ephemeral });
   },
 };
