@@ -1,7 +1,6 @@
 const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("time")
     .setDescription("Converts time measurements")
@@ -117,7 +116,6 @@ module.exports = {
         unitSymbols[newUnit].symbol,
         unitSymbols[newUnit].isSymbol
       )}`,
-      flags: MessageFlags.Ephemeral,
     });
   },
 };

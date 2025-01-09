@@ -1,7 +1,6 @@
 const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("frequency")
     .setDescription("Converts frequency measurements")
@@ -57,7 +56,6 @@ module.exports = {
 
     await interaction.reply({
       content: `${value} ${unitSymbols[originalUnit]} is ${convertedValue} ${unitSymbols[newUnit]}`,
-      flags: MessageFlags.Ephemeral,
     });
   },
 };

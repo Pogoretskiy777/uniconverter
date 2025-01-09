@@ -1,7 +1,6 @@
 const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("angle")
     .setDescription("Converts plane angle measurements")
@@ -112,7 +111,6 @@ module.exports = {
 
     await interaction.reply({
       content: `${value}${unitSymbols[originalUnit]} is ${convertedValue}${unitSymbols[newUnit]}`,
-      flags: MessageFlags.Ephemeral,
     });
   },
 };

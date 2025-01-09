@@ -1,7 +1,6 @@
 const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("data-transfer-rate")
     .setDescription("Converts data transfer rate measurements")
@@ -96,7 +95,6 @@ module.exports = {
 
     await interaction.reply({
       content: `${value} ${unitSymbols[originalUnit]} is ${convertedValue} ${unitSymbols[newUnit]}`,
-      flags: MessageFlags.Ephemeral,
     });
   },
 };

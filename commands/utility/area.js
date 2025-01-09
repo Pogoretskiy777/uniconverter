@@ -1,7 +1,6 @@
 const { SlashCommandBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("area")
     .setDescription("Converts area measurements")
@@ -85,7 +84,6 @@ module.exports = {
         value,
         unitSymbols[originalUnit]
       )} is ${convertedValue} ${pluralize(convertedValue, unitSymbols[newUnit])}`,
-      flags: MessageFlags.Ephemeral,
     });
   },
 };
