@@ -169,7 +169,7 @@ module.exports = {
       : convertedTime.format("HH:mm");
 
     await interaction.reply({
-      content: `${originalTimeString} ${originalTimezoneAbbr} (${originalTimezoneName}) is ${convertedTimeString} ${newTimezoneAbbr} (${newTimezoneName})`,
+      content: `${originalTimeString} ${originalTimezoneAbbr} is ${convertedTimeString} ${newTimezoneAbbr}`,
     });
   },
 };
