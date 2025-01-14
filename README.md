@@ -17,6 +17,7 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 - **Fuel Economy** (Miles per gallon, miles per gallon (imperial), kilometer per liter, liter per 100 kilometers)
 - **Length** (Inch, foot, yard, mile, nanometer, micrometer, millimeter, centimeter, meter, kilometer)
 - **Luminance** (Candela per square meter, candela per square foot, stilb, nit, millinit, lambert, millilambert, foot-lambert, apostilb/blondel)
+- **Magnetic flux** (Weber, milliweber, microweber, volt second, unit pole, megaline, kiloline, line, maxwell, tesla square meter, tesla square centimeter, gauss square centimeter, magnetic flux quantum)
 - **Mass** (Ounce, pound, stone, US ton, imperial ton, microgram, milligram, gram, kilogram, metric ton)
 - **Plane Angle** (Degree, radian, gradian, minute of arc, miliradian, arcsecond)
 - **Pressure** (Bar, pascal, pound-force per square inch (PSI), standard atmosphere, torr)
