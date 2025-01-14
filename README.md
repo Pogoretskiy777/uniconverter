@@ -16,6 +16,7 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 - **Frequency** (Hertz, kilohertz, megahertz, gigahertz)
 - **Fuel Economy** (Miles per gallon, miles per gallon (imperial), kilometer per liter, liter per 100 kilometers)
 - **Length** (Inch, foot, yard, mile, nanometer, micrometer, millimeter, centimeter, meter, kilometer)
+- **Luminance** (Candela per square meter, candela per square foot, stilb, nit, millinit, lambert, millilambert, foot-lambert, apostilb/blondel)
 - **Mass** (Ounce, pound, stone, US ton, imperial ton, microgram, milligram, gram, kilogram, metric ton)
 - **Plane Angle** (Degree, radian, gradian, minute of arc, miliradian, arcsecond)
 - **Pressure** (Bar, pascal, pound-force per square inch (PSI), standard atmosphere, torr)
