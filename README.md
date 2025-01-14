@@ -12,6 +12,7 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 - **Data** Transfer Rate (Bits per second, Kilobits per second, Kibibits per second, Megabits per second, Megabytes per second, mebibits per second, gigabits per second, gigabytes per second, gibibits per second, terabits per second, terabytes per second, tebibits per second)
 - **Digital Storage** (Bits, kilobits, kibibits, megabits, mebibits, gigabits, gibibits, terabits, tebibits, petabits, pebibits, bytes, kilobytes, kibibyts, megabytes, mebibytes, gigabytes, gibibytes, terabytes, tebibytes, petabytes, pebibytes)
 - **Energy** (Joules, kilojoules, gram calories, kilocalories, watt hours, kilowatt hours, electronvolts, British thermal units, US therms, foot-pounds)
+- **Force** (Newton, pound-force, gram-force, kilogram-force, poundal, ounce-force, ton-force, pond, kilopond, dyne, joule-per-meter, pound-foot/square second)
 - **Frequency** (Hertz, kilohertz, megahertz, gigahertz)
 - **Fuel Economy** (Miles per gallon, miles per gallon (imperial), kilometer per liter, liter per 100 kilometers)
 - **Length** (Inch, foot, yard, mile, nanometer, micrometer, millimeter, centimeter, meter, kilometer)
@@ -36,5 +37,3 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 _Note: All arguments are required in exception to the additional AM/PM within the timezone command_
 
 ### Examples
-
-
