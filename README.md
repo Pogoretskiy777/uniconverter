@@ -37,3 +37,10 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 _Note: All arguments are required in exception to the additional AM/PM within the timezone command_
 
 ### Examples
+
+![](https://github.com/Pogoretskiy777/discord-bot/blob/main/temptest.gif)
+![](https://github.com/Pogoretskiy777/discord-bot/blob/main/tztest.gif)
+
+## Usage
+
+To add the discord bot to your server, invite the bot to your server using the following [link](https://discord.com/oauth2/authorize?client_id=1325893912425922621&permissions=2147483648&integration_type=0&scope=bot+applications.commands).
