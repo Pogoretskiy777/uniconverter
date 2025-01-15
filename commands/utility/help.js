@@ -22,6 +22,7 @@ module.exports = {
 **/potential** - Converts electric potential measurements
 **/power** - Converts power measurements
 **/pressure** - Converts pressure measurements
+**/radioactivity** - Converts radiation activity measurements
 **/resistance** - Converts electric resistance measurements
 **/speed** - Converts speed measurements
 **/storage** - Converts digital storage measurements

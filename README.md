@@ -25,6 +25,7 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 - **Mass** (Ounce, pound, stone, US ton, imperial ton, microgram, milligram, gram, kilogram, metric ton)
 - **Plane Angle** (Degree, radian, gradian, minute of arc, miliradian, arcsecond)
 - **Pressure** (Bar, pascal, pound-force per square inch (PSI), standard atmosphere, torr)
+- **Radiation activity** (Becquerel, curie, millicurie, microcurie, nanocurie, picocurie, Rutherford)
 - **Speed** (Mile per hour, kilometer per hour, meter per second, foot per second, knots)
 - **Temperature** (Fahrenheit, celsius, kelvin)
 - **Time** (Nanosecond, microsecond, millisecond, second, minute, hour, day, week, month, year, decade, century, millennium)
