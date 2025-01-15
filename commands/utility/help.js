@@ -25,7 +25,9 @@ module.exports = {
 **/temp** - Converts temperature measurements
 **/time** - Converts time measurements
 **/timezone** - Converts between timezones (AM/PM optional)
-**/volume** - Converts volume measurements`,
+**/volume** - Converts volume measurements
+
+If there are any issues or suggestions, feel free to DM the developer @Pogoretskiy`,
       flags: MessageFlags.Ephemeral,
     });
   },
