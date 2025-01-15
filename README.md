@@ -9,7 +9,8 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 **UniConverter** can convert the following units:
 
 - **Area** (Square kilometer, square mile, square meter, square yard, square Foot, square inch, acre, hectare)
-- **Data** Transfer Rate (Bits per second, Kilobits per second, Kibibits per second, Megabits per second, Megabytes per second, mebibits per second, gigabits per second, gigabytes per second, gibibits per second, terabits per second, terabytes per second, tebibits per second)
+- **Charge** (Coulomb, millicoulomb, microcoulomb, electorn charge, faraday, ampere-hour, milliampere-hour)
+- **Data Transfer Rate** (Bits per second, Kilobits per second, Kibibits per second, Megabits per second, Megabytes per second, mebibits per second, gigabits per second, gigabytes per second, gibibits per second, terabits per second, terabytes per second, tebibits per second)
 - **Digital Storage** (Bits, kilobits, kibibits, megabits, mebibits, gigabits, gibibits, terabits, tebibits, petabits, pebibits, bytes, kilobytes, kibibyts, megabytes, mebibytes, gigabytes, gibibytes, terabytes, tebibytes, petabytes, pebibytes)
 - **Energy** (Joules, kilojoules, gram calories, kilocalories, watt hours, kilowatt hours, electronvolts, British thermal units, US therms, foot-pounds)
 - **Force** (Newton, pound-force, gram-force, kilogram-force, poundal, ounce-force, ton-force, pond, kilopond, dyne, joule-per-meter, pound-foot/square second)

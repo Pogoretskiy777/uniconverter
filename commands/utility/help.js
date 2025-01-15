@@ -8,6 +8,7 @@ module.exports = {
       content: `UniConverter supports the following conversions:\n
 **/angle** - Converts plane angle measurements
 **/area**  - Converts area measurements
+**/charge** - Converts electrical charge measurements
 **/data-transfer** - Converts data transfer rates
 **/energy** - Converts energy measurements
 **/field-strength** - Converts magnetic field strength measurements
