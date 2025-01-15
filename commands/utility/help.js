@@ -32,6 +32,10 @@ module.exports = {
 **/timezone** - Converts between timezones (AM/PM optional)
 **/volume** - Converts volume measurements
 
+All slash commands follow the following format:
+
+**/[category] [quantity] [original unit] [new unit]**
+
 If there are any issues or suggestions, feel free to DM the developer @Pogoretskiy`,
       flags: MessageFlags.Ephemeral,
     });
