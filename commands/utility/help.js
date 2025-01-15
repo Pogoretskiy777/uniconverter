@@ -19,6 +19,7 @@ module.exports = {
 **/length** - Converts length measurements
 **/luminance** - Converts luminance measurements
 **/mass** - Converts mass measurements
+**/potential** - Converts electric potential measurements
 **/power** - Converts power measurements
 **/pressure** - Converts pressure measurements
 **/speed** - Converts speed measurements
