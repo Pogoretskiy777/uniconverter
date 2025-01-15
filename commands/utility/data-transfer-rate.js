@@ -1,8 +1,8 @@
-const { SlashCommandBuilder, MessageFlags } = require("discord.js");
+const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("data-transfer-rate")
+    .setName("data-transfer")
     .setDescription("Converts data transfer rate measurements")
     .addNumberOption((option) =>
       option.setName("quantity").setDescription("The original unit's measurement").setRequired(true)

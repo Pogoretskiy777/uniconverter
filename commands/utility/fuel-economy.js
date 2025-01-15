@@ -1,8 +1,8 @@
-const { SlashCommandBuilder, MessageFlags } = require("discord.js");
+const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("fuel-economy")
+    .setName("fuel")
     .setDescription("Converts fuel economy measurements")
     .addNumberOption((option) =>
       option.setName("quantity").setDescription("The original unit's measurement").setRequired(true)
