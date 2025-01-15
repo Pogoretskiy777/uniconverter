@@ -13,6 +13,7 @@ This bot is designed to make unit conversions fast, easy, and accessible directl
 - **Data Transfer Rate** (Bits per second, Kilobits per second, Kibibits per second, Megabits per second, Megabytes per second, mebibits per second, gigabits per second, gigabytes per second, gibibits per second, terabits per second, terabytes per second, tebibits per second)
 - **Digital Storage** (Bits, kilobits, kibibits, megabits, mebibits, gigabits, gibibits, terabits, tebibits, petabits, pebibits, bytes, kilobytes, kibibyts, megabytes, mebibytes, gigabytes, gibibytes, terabytes, tebibytes, petabytes, pebibytes)
 - **Electric potential** (Volt, millivolt, microvolt, kilovolt, megavolt, statvolt, abvolt)
+- **Electric resistance** (Ohm, milliohm, microohm, nanoohm, kiloohm, megohm, statohm, quantized hall resistance)
 - **Energy** (Joules, kilojoules, gram calories, kilocalories, watt hours, kilowatt hours, electronvolts, British thermal units, US therms, foot-pounds)
 - **Force** (Newton, pound-force, gram-force, kilogram-force, poundal, ounce-force, ton-force, pond, kilopond, dyne, joule-per-meter, pound-foot/square second)
 - **Frequency** (Hertz, kilohertz, megahertz, gigahertz)
