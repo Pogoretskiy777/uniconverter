@@ -20,7 +20,8 @@
   "dependencies": {
     "discord.js": "^14.17.2",
     "dotenv": "^16.4.7",
-    "moment-timezone": "^0.5.46"
+    "moment-timezone": "^0.5.46",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "eslint": "^9.17.0"
