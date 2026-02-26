@@ -7,8 +7,9 @@ module.exports = {
     await interaction.reply({
       content: `UniConverter supports the following conversions:\n
 **/angle** - Converts plane angle measurements
-**/area**  - Converts area measurements
+**/area** - Converts area measurements
 **/charge** - Converts electrical charge measurements
+**/currency** - Converts currency exchange rates
 **/data-transfer** - Converts data transfer rates
 **/energy** - Converts energy measurements
 **/field-strength** - Converts magnetic field strength measurements
@@ -22,7 +23,7 @@ module.exports = {
 **/potential** - Converts electric potential measurements
 **/power** - Converts power measurements
 **/pressure** - Converts pressure measurements
-**/radiation** - Converts between radiation dose measurements
+**/radiation** - Converts radiation dose measurements
 **/radioactivity** - Converts radiation activity measurements
 **/resistance** - Converts electric resistance measurements
 **/speed** - Converts speed measurements
